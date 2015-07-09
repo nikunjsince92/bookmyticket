@@ -1,0 +1,155 @@
+body{
+	background-color:#272D32 !important;
+	padding-bottom:100px;
+}
+#heading{
+	font-family: 'Muli', sans-serif;
+	font-size:40px;
+	color:#FFF;
+}
+.positionHeading{
+	margin-top:170px;
+}
+.positionInput{
+	margin-top:50px;
+}
+.buttonStyle{padding:0px 20px;}
+#seatContainer{
+	position:absolute;
+	margin-top:70px;
+	margin-left:400px;
+}
+#screen{
+	position:absolute;
+	margin-top:20px;
+	margin-left:400px;
+	height:40px;
+	line-height:40px;
+	border-bottom:3px solid #fff;
+	width:560px;
+	background-color:#FFA500;
+	border:2px solid #222;
+	text-align:center;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:90%;
+}
+#guide{
+	position:absolute;
+	margin-left:1000px;
+	margin-top:240px;
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding-right: 38px;
+	padding-top: 25px;
+}
+
+#page2{
+	display:none;
+}
+
+
+#chairDescription li{
+	list-style: none outside none;
+	padding-left:35px;
+	height:35px;
+}
+#horizontal{
+	margin-left:40px;
+	color:#fff;
+}
+#vertical{
+	position:absolute;
+	margin-top:40px;
+	margin-right:50px;
+	width:15px;
+	color:#fff;
+}
+.naming{
+    font-weight: bold;
+	font-size: 20px;
+	float:left;
+	width:14px;
+	text-align:center;
+}
+.namingVert{
+	font-weight: bold;
+	font-size: 20px;
+	text-align:center;
+}
+.confirmSelection, #moreBooking {
+	position:absolute;
+	top:550px;
+	left:600px;
+}
+#moreBooking{
+	display:none;
+}
+#holder{   
+position:absolute;
+height:430px;    
+width:520px;
+padding:10px;
+background-color:#F5F5F5;
+border:1px solid #A4A4A4;
+margin-left:25px;  
+margin-top:30px;
+}
+#place {
+position:relative;
+margin:7px;
+}
+#place a{
+font-size:0.6em;
+}
+#place li
+{
+ list-style: none outside none;
+ position: absolute;   
+}
+#table-container{
+	position:absolute;
+	top:630px;
+	left:400px;
+	width:600px;
+	height:260px;
+	}    
+#mytable {	background-color:#fff;
+}
+#place li:hover
+{
+border:1px solid #DDDDDD;
+border-radius:2px;
+-moz-border-radius:2px;
+-webkit-border-radius:2px;
+cursor:pointer;
+} 
+#place .chair{
+background:url("images/empty.png") no-repeat scroll 0 0 transparent;
+height:20px;
+width:20px;
+display:block;   
+}
+#place .occupiedChair
+{ 
+background-image:url("images/occupied.png");          
+}
+#place .selectedChair
+{ 
+background-image:url("images/selected.png");        
+}
+#place .row-5, #place .row-6, #place .row-7, #place .row-8, #place .row-9 {
+margin-top:20px;
+}
+#place .col-5,#place .col-6,#place .col-7,#place  .col-8,#place .col-9,#place .col-10,#place .col-11{
+margin-left:20px;
+}
+.firstElMargin{margin-left:4px;}
+.sixthElMargin {margin-left:45px;}
+.normalMargin {margin-left:26px;}
+
+.firstElMarginVert{margin-top:5px;}
+.sixthElMarginVert {margin-top:34px ;}
+.normalMarginVert {margin-top:11px;}
